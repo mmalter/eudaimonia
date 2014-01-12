@@ -8,8 +8,6 @@ setup(name='eudaimonia',
     author_email='dev@michaelmalter.fr',
     package_dir={'eudaimonia': 'src'},
     packages=['eudaimonia'],
-    data_files=[('/etc/init.d',['init/dlstats']),
-                ('/usr/local/bin',['init/dlstats-daemon.py'])],
     install_requires=[
         'sys', 'os', 'time', 'atexit', 'signal'
       ]
